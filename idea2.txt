@@ -1,0 +1,11 @@
+On Init
+    - List<Person>
+
+On Next Stage
+    - Random select Person
+    - Random select Activity
+    - Random select List<Schedule> (5)
+
+Person:
+    Personality: String
+    Name: String

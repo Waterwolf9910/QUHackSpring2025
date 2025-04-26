@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Schedule Simulator</title>
+        <style>
+            .s {}
+            .flex {
+                display: flex;
+            }
+            .row {
+                flex-direction: row;
+            }
+            .column {
+                flex-direction: column;
+            }
+            .center {
+                align-items: center;
+                justify-content: center;
+            }
+            .right {
+                justify-content: end;
+                align-items: end;
+            }
+            .options {
+                margin: 20px;
+                display: flex;
+                width: 475px;
+                border: dotted black 5px;
+                justify-content: start;
+            }
+            body {
+                /* width: 100%; */
+                background-color: oklch(0.551 0.027 264.364);
+            }
+        </style>
+        <script>
+            window.run = () => {
+                window.java_state.printHello()
+                window.java_state.setOptions()
+                return true;
+            }
+            window.setActvitiy = (person, txt) => {
+                document.getElementById("activity").innerText = `${person.name} is ${person.personality} ${txt}`
+            }
+            window.setOptionOne = (txt) => {
+                document.getElementById("choice_one").checked = false
+                document.getElementById("choice_one_text").innerText = txt
+            }
+            window.setOptionTwo = (txt) => {
+                document.getElementById("choice_two").checked = false
+                document.getElementById("choice_two_text").innerText = txt
+            }
+            window.setOptionThree = (txt) => {
+                document.getElementById("choice_three").checked = false
+                document.getElementById("choice_three_text").innerText = txt
+            }
+            window.setOptionFour = (txt) => {
+                document.getElementById("choice_four").checked = false
+                document.getElementById("choice_four_text").innerText = txt
+            }
+            window.submit = (bool) => {
+                window.java_state.submit(bool)
+            }
+        </script>
+    </head>
+    <body>
+        <div id="root">
+            <p>
+                <div class="flex column center">
+            </p>
+            <div class="flex column right">
+                <p style="">
+                    Timer [Java var]
+                </p>
+            </div>
+            <div class="flex column center">
+                <p id="activity">[Activity]</p>
+                <div class="options">
+                    <input title="one" type="checkbox" input="checkbox" id="choice_one"></input>
+                    <label id="choice_one_text">Option 1</label>
+                </div>
+                <div class="options">
+                    <input title="two" type="checkbox" input="checkbox" id="choice_two"></input>
+                    <label id="choice_two_text">Option 2</label>
+                </div>
+                <div class="options">
+                    <input title="three" type="checkbox" input="checkbox" id="choice_three"></input>
+                    <label id="choice_three_text">Option 3</label>
+                </div>
+                <div class="options">
+                    <input title="four" type="checkbox" input="checkbox" id="choice_four"></input>
+                    <label id="choice_four_text">Options 4</label>
+                </div>
+                <!-- <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F10%2FDotted-Line-PNG-Transparent-Picture.png&f=1&nofb=1&ipt=a6407090d94de5e424ccd393725719e34ec3f8f05a1fe5c5dfd799c3ddfe0f0c" style="width: 55vw; min-width: 330px;" alt="image_link">
+                <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F10%2FDotted-Line-PNG-Transparent-Picture.png&f=1&nofb=1&ipt=a6407090d94de5e424ccd393725719e34ec3f8f05a1fe5c5dfd799c3ddfe0f0c" style="width: 55vw; min-width: 330px;" alt="image_link">
+                <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F10%2FDotted-Line-PNG-Transparent-Picture.png&f=1&nofb=1&ipt=a6407090d94de5e424ccd393725719e34ec3f8f05a1fe5c5dfd799c3ddfe0f0c" style="width: 55vw; min-width: 330px;" alt="image_link">
+                <img src= "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pngmart.com%2Ffiles%2F10%2FDotted-Line-PNG-Transparent-Picture.png&f=1&nofb=1&ipt=a6407090d94de5e424ccd393725719e34ec3f8f05a1fe5c5dfd799c3ddfe0f0c" style="width: 55vw; min-width: 330px;" alt="image_link"> -->
+            </div>
+            
+            <p>Current Points: [java var]</p>
+            <button class="" type="button" onclick="window.submit(false)">Done!</button>
+            <script>
+                
+            </script>
+        </div>
+    </body>
+</html>

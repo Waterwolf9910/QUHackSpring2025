@@ -1,0 +1,14 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "debug.focusEditorOnBreak": false,
+    "debug.focusWindowOnBreak": false,
+    "liveshare.focusBehavior": "prompt",
+    "liveServer.settings.useLocalIp": false,
+    "liveServer.settings.host": "10.111.150.186",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
+    // "java.project.sourcePaths": [
+    //     "app/src/main/java",
+    //     "app/src/test/java",
+    // ]
+}

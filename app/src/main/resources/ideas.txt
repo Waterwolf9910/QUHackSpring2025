@@ -12,6 +12,7 @@ Ny Times Connections + Warioware
 
 Different activities:
 Breakfast/Lunch/Dinner
+Freshening Up
 Laundry
 Go to [various classes]
 Gym
@@ -21,5 +22,5 @@ Cleaning
 Sports Practice/Clubs
 Work
 Homework
-Clubs
+
 
