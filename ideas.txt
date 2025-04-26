@@ -1,0 +1,25 @@
+Connections + Warioware style 
+
+File Organization
+- Take organizing something as a game
+
+
+Main #IDEA:
+- Schedule Simulator
+Schedule-making game, filling out chores in an order (each round has a timer) (Like warioware but similar things over and over)
+Ny Times Connections + Warioware
+
+
+Different activities:
+Breakfast/Lunch/Dinner
+Laundry
+Go to [various classes]
+Gym
+Cooking
+Doing Dishes
+Cleaning
+Sports Practice/Clubs
+Work
+Homework
+Clubs
+
